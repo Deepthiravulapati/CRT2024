@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+ int x,a,b,y;
+    scanf("%d\n%d\n%d",&x,&a,&b);
+    y=((x*a)-(x*b))-100;
+    printf("%d",y);
+
+      
+    return 0;
+}
